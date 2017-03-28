@@ -14,6 +14,41 @@ $font-family-serif:      'Poppins', Georgia, "Times New Roman", Times, serif ;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace ;
 $font-family-base:       $font-family-serif;
 
-// Font Weights
+// Colors
+
+$red: #B71C1C;
+$white: #fff;
+
+// Classes
+//
+.bg-dankness {
+	background-color: $red;
+}
+
+.jumbotron {
+	background-image: url('./img/mountainvalley.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.jumbotron h1{
+	color: $white;
+}
+
+.jumbotron p{
+	color: $white;
+}
+
+.display-3 h1{
+	color: $white;
+
+}
+
+.btn {
+	background-color: $red;
+	border-color: $red;
+}
+
 
 

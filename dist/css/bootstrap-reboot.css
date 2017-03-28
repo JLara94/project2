@@ -1,3 +1,32 @@
+.bg-dankness {
+  background-color: #B71C1C;
+}
+
+.jumbotron {
+  background-image: url("./img/mountainvalley.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron p {
+  color: #fff;
+}
+
+.display-3 h1 {
+  color: #fff;
+}
+
+.btn {
+  background-color: #B71C1C;
+  border-color: #B71C1C;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;

@@ -52,6 +52,7 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  color: $black;
 
   .nav-link {
     padding-right: 0;
@@ -85,6 +86,7 @@
   background: transparent; // remove default button style
   border: $border-width solid transparent; // remove default button style
   @include border-radius($navbar-toggler-border-radius);
+
 
   @include hover-focus {
     text-decoration: none;
