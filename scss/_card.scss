@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: $card-bg;
+  background-color: $red;
   border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);
 }
@@ -16,10 +16,12 @@
   // as much space as possible, ensuring footers are aligned to the bottom.
   flex: 1 1 auto;
   padding: $card-spacer-x;
+  background-color: $red;
 }
 
 .card-title {
   margin-bottom: $card-spacer-y;
+  color: $white;
 }
 
 .card-subtitle {
