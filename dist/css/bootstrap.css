@@ -33,6 +33,10 @@
   border-color: #B71C1C;
 }
 
+.card {
+  background-color: #B71C1C;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -4443,7 +4447,7 @@ tbody.collapse.show {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #464a4c;
+  background-color: #B71C1C;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
@@ -4454,10 +4458,12 @@ tbody.collapse.show {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  background-color: #B71C1C;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+  color: #fff;
 }
 
 .card-subtitle {

@@ -44,6 +44,10 @@ html {
   border-color: #B71C1C;
 }
 
+.card {
+  background-color: #B71C1C;
+}
+
 .container {
   position: relative;
   margin-left: auto;

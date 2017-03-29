@@ -27,6 +27,10 @@
   border-color: #B71C1C;
 }
 
+.card {
+  background-color: #B71C1C;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
